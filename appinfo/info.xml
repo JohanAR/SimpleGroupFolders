@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>simplegroupfolders</id>
+    <name>Simple Group Folders</name>
+    <summary>A simpler kind of group folders</summary>
+    <description><![CDATA[I&#39;ll write this later]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="johan@oljud.se" >Johan Rastén</author>
+    <namespace>SimpleGroupFolders</namespace>
+    <category>files</category>
+    <category>organization</category>
+    <bugs>https://github.com/JohanAR/SimpleGroupFolders/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="13" max-version="13"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Simple Group Folders</name>
+            <route>simplegroupfolders.page.index</route>
+        </navigation>
+    </navigations>
+</info>

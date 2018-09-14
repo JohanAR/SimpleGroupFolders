@@ -1,0 +1,15 @@
+{
+    "name": "Simple Group Folders",
+    "description": "A simpler kind of group folders",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Johan Rastén"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
